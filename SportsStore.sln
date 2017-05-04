@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{2D23F4EA-11CF-4C03-929A-E1C9BD5310D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{533B9535-E98B-4121-B735-279BCDCCC482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore.WebUI\SportsStore.WebUI.csproj", "{EE2AC86B-976F-4E85-90FD-907709A6F246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3D00889-422F-4926-91FA-C3B09DB4F817}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D23F4EA-11CF-4C03-929A-E1C9BD5310D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D23F4EA-11CF-4C03-929A-E1C9BD5310D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D23F4EA-11CF-4C03-929A-E1C9BD5310D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D23F4EA-11CF-4C03-929A-E1C9BD5310D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533B9535-E98B-4121-B735-279BCDCCC482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533B9535-E98B-4121-B735-279BCDCCC482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533B9535-E98B-4121-B735-279BCDCCC482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533B9535-E98B-4121-B735-279BCDCCC482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2AC86B-976F-4E85-90FD-907709A6F246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2AC86B-976F-4E85-90FD-907709A6F246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2AC86B-976F-4E85-90FD-907709A6F246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2AC86B-976F-4E85-90FD-907709A6F246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
